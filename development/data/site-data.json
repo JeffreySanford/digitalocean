@@ -146,7 +146,7 @@
          "subtitle":"Display weather statistics",
          "teaser":"Using restful services and external API's pull weather data about a specified city.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/async-weather-reverserisk",
-         "url":"http://mctdev.us/sandbox/ASYNC-Weather/",
+         "url":"../sandbox/ASYNC-Weather/",
          "samples":":javascript",
          "imageURL": "img/html5css3-logo.png"
       }
