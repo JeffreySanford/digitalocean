@@ -40,7 +40,7 @@
          "subtitle":"Displays Reddit articles",
          "teaser":"This collects articles from the business reddit section and displays them.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/reddit",
-         "url":"development/sandbox/reddit-bootstrap-flex/",
+         "url":"../sandbox/reddit-bootstrap-flex/",
          "samples":":html",
          "imageURL": "img/html5css3-logo.png"
       },
@@ -49,7 +49,7 @@
          "subtitle":"Table Modification",
          "teaser":"HTML5 design using JQuery.",
          "git":"https://github.com/JeffreySanford/samples/tree/master/jquery/table-modification",
-         "url":"http://mctdev.us/samples/jquery/table-modification/",
+         "url":"../samples/jquery/table-modification/",
          "samples":":bootstrap",
          "imageURL": "img/bootstrap-logo.png"
       },
@@ -58,7 +58,7 @@
          "subtitle":"CS Sort Algorithms",
          "teaser":"Using bootstrap, display some higher level search engine algorithms results.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/sort-functions",
-         "url":"http://mctdev.us/sandbox/sort/",
+         "url":"../sandbox/sort/",
          "samples":":bootstrap",
          "imageURL": "img/bootstrap-logo.png"
       },
@@ -67,7 +67,7 @@
          "subtitle":"Basic Layout using HTML5 and Jquery",
          "teaser":"These are some samples in Jquery",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/sort-functions",
-         "url":"http://mctdev.us/samples/jquery/basic/",
+         "url":"../samples/jquery/basic/",
          "samples":":javascript",
          "imageURL": "img/html5css3-logo.png"
       }
@@ -119,7 +119,7 @@
          "subtitle":"Artist Site",
          "teaser":"This is a angular mockup application for a business idea that a start-up had.",
          "git":"https://github.com/JeffreySanford/development/tree/master/projects/car-connection/app",
-         "url":"http://mctdev.us/sandbox/CarConnection/#/",
+         "url":"../sandbox/CarConnection/#/",
          "samples":":angular",
          "imageURL": "img/angularjs-logo.png"
       },
@@ -128,7 +128,7 @@
          "subtitle":"Recipe Articles",
          "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
          "git":"https://github.com/JeffreySanford/development/tree/master/projects/kitchen-table",
-         "url":"http://mctdev.us/development/AdSense/#/",
+         "url":"projects/AdSense/#/",
          "samples":":angular",
          "imageURL": "img/angularjs-logo.png"
       },
@@ -137,7 +137,7 @@
          "subtitle":"Proof of Concept",
          "teaser":"A site for a front end e-commerence package that will charge to Swipe and Paypal APIs.",
          "git":"https://github.com/JeffreySanford/subscription-project",
-         "url":"http://purchasing.azurewebsites.net",
+         "url":"projects/restful-purchasing",
          "samples":":angular",
          "imageURL": "img/angularjs-logo.png"
       },
