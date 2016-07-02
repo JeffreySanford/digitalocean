@@ -31,7 +31,7 @@
          "subtitle":"HTML5 audio and video",
          "teaser":"This is using the HTML5 video and audio elements.",
          "git":"https://github.com/JeffreySanford/html5-presentation",
-         "url":"http://html5-presentation.azurewebsites.net/",
+         "url":"development/projects/html5-presentation",
          "samples":":html",
          "imageURL": "img/html5css3-logo.png"
       },
@@ -40,7 +40,7 @@
          "subtitle":"Displays Reddit articles",
          "teaser":"This collects articles from the business reddit section and displays them.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/reddit",
-         "url":"http://mctdev.us/sandbox/reddit-bootstrap-flex/",
+         "url":"development/sandbox/reddit-bootstrap-flex/",
          "samples":":html",
          "imageURL": "img/html5css3-logo.png"
       },
