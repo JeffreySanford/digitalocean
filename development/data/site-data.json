@@ -31,7 +31,7 @@
          "subtitle":"HTML5 audio and video",
          "teaser":"This is using the HTML5 video and audio elements.",
          "git":"https://github.com/JeffreySanford/html5-presentation",
-         "url":"development/projects/html5-presentation",
+         "url":"projects/html5-presentation",
          "samples":":html",
          "imageURL": "img/html5css3-logo.png"
       },
