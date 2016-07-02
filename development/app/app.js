@@ -58,7 +58,7 @@
         $scope.designProjects = [];
 
         var xmlhttp = new XMLHttpRequest();
-        var url = "../data/site-data.json";
+        var url = "../development/data/site-data.json";
 
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
@@ -76,7 +76,7 @@
         $scope.designProjects = [];
 
         var xmlhttp = new XMLHttpRequest();
-        var url = "../data/site-data.json";
+        var url = "../development/data/site-data.json";
 
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
@@ -96,7 +96,7 @@
         $scope.developmentProjects = [];
 
         var xmlhttp = new XMLHttpRequest();
-        var url = "../data/site-data.json";
+        var url = "../development/data/site-data.json";
 
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
@@ -114,7 +114,7 @@
         $scope.developmentProjects = [];
 
         var xmlhttp = new XMLHttpRequest();
-        var url = "../data/site-data.json";
+        var url = "../development/data/site-data.json";
 
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
