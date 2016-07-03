@@ -58,7 +58,7 @@
          "subtitle":"CS Sort Algorithms",
          "teaser":"Using bootstrap, display some higher level search engine algorithms results.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/sort-functions",
-         "url":"../sandbox/sort/",
+         "url":"../development/projects/sort-function/",
          "samples":":bootstrap",
          "imageURL": "img/bootstrap-logo.png"
       },
@@ -146,7 +146,7 @@
          "subtitle":"Display weather statistics",
          "teaser":"Using restful services and external API's pull weather data about a specified city.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/async-weather-reverserisk",
-         "url":"../sandbox/ASYNC-Weather/",
+         "url":"../development/projects/async-weather/",
          "samples":":javascript",
          "imageURL": "img/html5css3-logo.png"
       }
