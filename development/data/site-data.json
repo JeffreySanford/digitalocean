@@ -128,7 +128,7 @@
          "subtitle":"Recipe Articles",
          "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
          "git":"https://github.com/JeffreySanford/development/tree/master/projects/kitchen-table",
-         "url":"projects/AdSense/#/",
+         "url":"projects/kitchen-table",
          "samples":":angular",
          "imageURL": "img/angularjs-logo.png"
       },
