@@ -58,7 +58,7 @@
          "subtitle":"CS Sort Algorithms",
          "teaser":"Using bootstrap, display some higher level search engine algorithms results.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/sort-functions",
-         "url":"../development/projects/sort-function/",
+         "url":"../development/projects/sort-functions/",
          "samples":":bootstrap",
          "imageURL": "img/bootstrap-logo.png"
       },
@@ -119,7 +119,7 @@
          "subtitle":"Artist Site",
          "teaser":"This is a angular mockup application for a business idea that a start-up had.",
          "git":"https://github.com/JeffreySanford/development/tree/master/projects/car-connection/app",
-         "url":"../sandbox/CarConnection/#/",
+         "url":"../development/projects/car-connection/",
          "samples":":angular",
          "imageURL": "img/angularjs-logo.png"
       },
