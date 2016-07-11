@@ -114,15 +114,15 @@
          "samples":":express",
          "imageURL": "img/expressjs-logo.png"
       },
-    //   {
-    //      "title":"Car Connect",
-    //      "subtitle":"Artist Site",
-    //      "teaser":"This is a angular mockup application for a business idea that a start-up had.",
-    //      "git":"https://github.com/JeffreySanford/development/tree/master/projects/car-connection/app",
-    //      "url":"../development/projects/car-connection/",
-    //      "samples":":angular",
-    //      "imageURL": "img/angularjs-logo.png"
-    //   },
+      {
+         "title":"Car Connect",
+         "subtitle":"Artist Site",
+         "teaser":"This is a angular mockup application for a business idea that a start-up had.",
+         "git":"https://github.com/JeffreySanford/development/tree/master/projects/car-connection/app",
+         "url":"../development/projects/car-connection/app",
+         "samples":":angular",
+         "imageURL": "img/angularjs-logo.png"
+      },
       {
          "title":"Kitchen Table",
          "subtitle":"Recipe Articles",
@@ -132,15 +132,15 @@
          "samples":":angular",
          "imageURL": "img/angularjs-logo.png"
       },
-    //   {
-    //      "title":"Purchasing",
-    //      "subtitle":"Proof of Concept",
-    //      "teaser":"A site for a front end e-commerence package that will charge to Swipe and Paypal APIs.",
-    //      "git":"https://github.com/JeffreySanford/subscription-project",
-    //      "url":"projects/restful-purchasing",
-    //      "samples":":angular",
-    //      "imageURL": "img/angularjs-logo.png"
-    //   },
+      {
+         "title":"Purchasing",
+         "subtitle":"Proof of Concept",
+         "teaser":"A site for a front end e-commerence package that will charge to Swipe and Paypal APIs.",
+         "git":"https://github.com/JeffreySanford/subscription-project",
+         "url":"projects/rest-express",
+         "samples":":angular",
+         "imageURL": "img/angularjs-logo.png"
+      },
       {
          "title":"Weather",
          "subtitle":"Display weather statistics",
