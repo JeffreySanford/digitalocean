@@ -9,42 +9,42 @@
 			.when('/', {
             /*  Landing page */
 				controller: 'MainController',
-				templateUrl: 'app/views/partials/mainView.html',           
+				templateUrl: 'views/partials/mainView.html',
             })
             .when('/find', {
             /*  ADMIN:  Will list all the resource members */
                 controller: 'MainController',
-                templateUrl: 'app/views/partials/find.html'
+                templateUrl: 'views/partials/find.html'
             })
             .when('/buyers', {
             /*  ADMIN:  Used as a main page for the buyers */
                 controller: 'BuyersController',
-                templateUrl: 'app/views/partials/buyers.html'
+                templateUrl: 'views/partials/buyers.html'
             })
             .when('/buyer', {
             /*  USER:  Used as a main page for the individual buyer */
                 controller: 'BuyersController',
-                templateUrl: 'app/views/partials/buyer.html'
+                templateUrl: 'views/partials/buyer.html'
             })
             .when('/buyer/:buyerID', {
             /*  USER:  Used as a main page for the individual buyer */
                 controller: 'BuyersController',
-                templateUrl: 'app/views/partials/buyer.html'
+                templateUrl: 'views/partials/buyer.html'
             })
             .when('/sellers', {
             /*  ADMIN: Used for the sellers main page */
                 controller: 'SellersController',
-                templateUrl: 'app/views/partials/sellers.html'
+                templateUrl: 'views/partials/sellers.html'
             })
             .when('/sellers/:sellerID', {
             /*  USER:  Used as a main page for the individual seller */
                 controller: 'SellersController',
-                templateUrl: 'app/views/partials/seller.html'
+                templateUrl: 'views/partials/seller.html'
             })
             .when('/about', {
             /*  Will list all the resource members */
                 controller: 'MainController',
-                templateUrl: 'app/views/partials/about.html'
+                templateUrl: 'views/partials/about.html'
             })
 			.otherwise({redirectTo: '/admin' });
             /*  Redirect all other queries to the admin section */
@@ -65,9 +65,9 @@
         $http.get("js/json/owners.json")
             .success(function (responce) {
                 $scope.owners = responce;
-            }); 
+            });
         });
-    
+
     carConn.controller('SellersController', function BuyersController($scope, $http) {
         $http.get("js/json/sellers.json")
             .success(function (responce) {
@@ -94,5 +94,5 @@ angular.module('myModule', []).
     $compileProvider.directive('directiveName', ...);
     $filterProvider.register('filterName', ...);
   });
-  
+
   */
