@@ -106,7 +106,6 @@ video {
 
 .project {
 	padding: 10px;
-	margin: 10px;
 	width: 350px;
 	height: 190px;
 	padding: 10px;
@@ -155,7 +154,7 @@ video {
 .individual-project {
 	width: 90%;
 	height: 250px;
-	margin: 0 auto;
+	margin: 0 auto 1.5em;
 }
 
 .project button {
