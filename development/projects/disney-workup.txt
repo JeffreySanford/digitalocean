@@ -15,8 +15,8 @@ function getAge(dateString) {
 function findByAge(records) {
     var age;
     for (i = 0; i < records.length; i++) {
-	age = getAge(records[i].borthday)'
-    	if (getAge(records[i].birthdate) >= 30)
+	age = getAge(records[i].birthday);
+    	if (getAge(records[i].birthdate) >= 30) {
 		found.push record[i]; 
 		console.log(records[i].name + " is " + 
     	}
