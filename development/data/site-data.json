@@ -132,6 +132,15 @@
 	"imageURL": "img/angularjs-logo.png"
       },
       {
+	"title": "Angular Hero App",
+	"subtitle": "Angular in the front-end",
+	"teaser": "This is a prototype using material design techniques to create a front-end application that will involve the user in the navigation process.",
+	"url":  "projects/ng-hero-app/",
+	"samples":  "sangular"
+	"imageURL":  "img/angularjs-logo.png"	
+      }.
+
+      {
          "title":"Kitchen Table",
          "subtitle":"Recipe Articles",
          "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
