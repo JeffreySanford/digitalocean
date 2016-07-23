@@ -34,7 +34,7 @@
          "url":"projects/html5-presentation",
          "samples":":html",
          "imageURL": "img/html5css3-logo.png"
-      }, 
+      },
       {
          "title":"Reddit",
          "subtitle":"Displays Reddit articles",
@@ -160,7 +160,7 @@
       {
          "title":"Weather",
          "subtitle":"Display weather statistics",
-         "teaser":"Using restful services and external API's pull weather data about a specified city.",
+         "teaser":"Using RESTful services and external API's pull weather data about a specified city.",
          "git":"https://github.com/JeffreySanford/development/tree/master/assessments/async-weather-reverserisk",
          "url":"../development/projects/async-weather/",
          "samples":":javascript",
