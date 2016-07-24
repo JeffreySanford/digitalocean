@@ -37,7 +37,7 @@
 
     portfolioModule.controller('artController', function ($scope, $routeParams) {
         var xmlhttp = new XMLHttpRequest();
-        var url = "../../data/artwork.json";
+        var url = "projects/native-girl/data/artwork.json";
 
         $scope.title = "Designs";
         $scope.params = $routeParams;
