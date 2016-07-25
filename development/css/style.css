@@ -3,7 +3,7 @@
 html, body {
 	height: 100%;
 	font-family: 'Noto Sans', sans-serif;
-	overflow: auto;
+	overflow: hidden;
 }
 
 body {
@@ -161,6 +161,8 @@ video {
 .project button {
 	width: 70px;
 	font-size: .8em;
+	position: absolute;
+	margin-top: -25px;
 	border: none;
 	border-radius: 3px;
 	color: black;
@@ -175,7 +177,6 @@ video {
 
 .project-button {
 	width: 40%;
-	margin: 0 auto;
 	position: absolute; 
 	bottom: 10px;
 }

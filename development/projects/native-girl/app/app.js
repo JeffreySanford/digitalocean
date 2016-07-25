@@ -37,7 +37,7 @@
 
     portfolioModule.controller('artController', function ($scope, $routeParams) {
         var xmlhttp = new XMLHttpRequest();
-        var url = "projects/native-girl/data/artwork.json";
+        var url = "data/artwork.json";
 
         $scope.title = "Designs";
         $scope.params = $routeParams;
@@ -61,7 +61,6 @@
                     console.dir(catagory);
 
                     posInSet = 6;
-                        
                     $scope.thumbOne = catagory[0].image;
                     $scope.thumbTwo = catagory[1].image;
                     $scope.thumbThree = catagory[2].image;

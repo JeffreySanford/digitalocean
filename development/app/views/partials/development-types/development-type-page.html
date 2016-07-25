@@ -8,13 +8,13 @@
 	  <p class="title">{{ project.title }}</p>
 	  <p class="subtitle">{{ project.subtitle }}</p>
 	  <p class="teaser">{{ project.teaser }}</p>
-	  <div class="project-button">
-            <div style="float:left;margin-top: -50px; margin-left:15px;">
+	  <div class="project-button" style="margin-top: -25px;">
+            <span style="float:left; margin: -25px 0 0 15px;float:left;">
               <a href='{{ project.git }}' target="_blank"><button>github</button></a>
-	    </div>
-	    <div style="float: right;margin-top: -50px;margin-right: -125px;">
+	    </span>
+	    <span style="margin: -25px -120px 0 0;float: right;">
 	      <a href='{{ project.url }}' target="_blank"><button>web</button></a>
-            </div>
+            </span>
 	  </div><!-- ends the buttom row -->
 	</div> <!-- ends boostrap well -->
       </div> <!-- ends angular repeat -->
