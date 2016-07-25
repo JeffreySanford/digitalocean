@@ -2149,7 +2149,7 @@ body {
 /* Intro */
 #intro {
   background: url("images/overlay.png"), url("../../images/logo.png");
-  background-size: 256px 256px, cover;
+  background-size: 64px 64px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
