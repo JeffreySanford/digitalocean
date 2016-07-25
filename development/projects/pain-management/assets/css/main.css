@@ -2148,7 +2148,7 @@ body {
 
 /* Intro */
 #intro {
-  background: url("images/overlay.png"), url("../../images/back-pain-logo.png");
+  background: url("images/overlay.png"), url("../../images/logo.png");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
