@@ -81,19 +81,17 @@ grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-cssmin');
 grunt.loadNpmTasks('grunt-contrib-watch');
 
+grunt.registerTask(
 // Creates the `server` task
-grunt.registerTask('server', [
+  'server', [
     'express',
     'open',
     'watch'
-    ]);
-
-//  Create the `default` task
-grunt.registerTask('default', [
+  ],
+  'default', [
     'concat',
     'uglify',
     'cssmin',
     'watch'
-  ]);
-};
-
+  ]
+)};
