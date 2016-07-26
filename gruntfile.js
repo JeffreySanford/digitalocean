@@ -44,4 +44,10 @@ grunt.registerTask('server', [
     'open',
     'watch'
     ]);
+grunt.registerTask('default', [
+    'concat',
+    'uglify',
+    'cssmin',
+    'watch'
+  ]);
 };
