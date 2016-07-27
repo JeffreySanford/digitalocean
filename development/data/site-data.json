@@ -136,7 +136,7 @@
     	"title": "Angular Hero App",
     	"subtitle": "Angular in the front-end",
     	"teaser": "This is a prototype using material design techniques to create a front-end application that will involve the user in the navigation process.",
-    	"url":  "projects/ng-hero-app/",
+    	"url":  "../development/projects/ng-hero-app/",
     	"samples":  "angular",
         "git":"github:JeffreySanford",
     	"imageURL":  "img/angularjs-logo.png"
@@ -145,7 +145,7 @@
     	"title": "Native Girl",
     	"subtitle": "Angular artist portfolio",
     	"teaser": "This will give an artist the ability to cycle through their portfolio work in different catagories.",
-    	"url":  "projects/native-girl/",
+    	"url":  "../development/projects/native-girl/",
     	"samples":  "angular",
         "git":"github:JeffreySanford",
     	"imageURL":  "img/angularjs-logo.png"
@@ -155,7 +155,7 @@
        "subtitle":"Recipe Articles",
        "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
        "git":"https://github.com/JeffreySanford/development/tree/master/projects/kitchen-table",
-       "url":"projects/kitchen-table",
+       "url":"../development/projects/kitchen-table",
        "samples":":angular",
        "imageURL": "img/angularjs-logo.png"
       },
@@ -164,7 +164,7 @@
        "subtitle":"Proof of Concept",
        "teaser":"A site for a front end e-commerence package that will charge to Swipe and Paypal APIs.",
        "git":"https://github.com/JeffreySanford/subscription-project",
-       "url":"projects/rest-express",
+       "url":"../development/projects/rest-express",
        "samples":":angular",
        "imageURL": "img/angularjs-logo.png"
       },
@@ -179,4 +179,3 @@
       }
    ]
 }
-
