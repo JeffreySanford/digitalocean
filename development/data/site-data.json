@@ -142,7 +142,6 @@
     	"imageURL":  "img/angularjs-logo.png"
       },
       {
-      {
     	"title": "Native Girl",
     	"subtitle": "Angular artist portfolio",
     	"teaser": "This will give an artist the ability to cycle through their portfolio work in different catagories.",
