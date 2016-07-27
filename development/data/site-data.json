@@ -142,6 +142,16 @@
     	"imageURL":  "img/angularjs-logo.png"
       },
       {
+      {
+    	"title": "Native Girl",
+    	"subtitle": "Angular artist portfolio",
+    	"teaser": "This will give an artist the ability to cycle through their portfolio work in different catagories.",
+    	"url":  "projects/native-girl/",
+    	"samples":  "angular",
+        "git":"github:JeffreySanford",
+    	"imageURL":  "img/angularjs-logo.png"
+      },
+      {
        "title":"Kitchen Table",
        "subtitle":"Recipe Articles",
        "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
