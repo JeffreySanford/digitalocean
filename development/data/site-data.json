@@ -135,9 +135,9 @@
       {
     	"title": "Angular Hero App",
     	"subtitle": "Angular in the front-end",
-    	"teaser": "This is a prototype using material design techniques to create a front-end application that will involve the user in the navigation process.",
+    	"teaser": "Angular/Material design creates a front-end app that involves the user in the navigation process.",
     	"url":  "../development/projects/ng-hero-app/",
-    	"samples":  "angular",
+    	"samples":  ":angular",
         "git":"github:JeffreySanford",
     	"imageURL":  "img/angularjs-logo.png"
       },
@@ -146,7 +146,7 @@
     	"subtitle": "Angular artist portfolio",
     	"teaser": "This will give an artist the ability to cycle through their portfolio work in different catagories.",
     	"url":  "../development/projects/native-girl/",
-    	"samples":  "angular",
+    	"samples":  ":angular",
         "git":"github:JeffreySanford",
     	"imageURL":  "img/angularjs-logo.png"
       },

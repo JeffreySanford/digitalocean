@@ -3,7 +3,7 @@
 html, body {
 	height: 100%;
 	font-family: 'Noto Sans', sans-serif;
-	overflow: hidden;
+	overflow: auto;
 }
 
 body {
@@ -92,7 +92,7 @@ video {
 
 .container {
   font-size: 1.2em; 
-  overflow: auto;;
+  overflow: auto;
   color: white
 }
 
@@ -103,6 +103,7 @@ video {
 
 .project-wrapper {
   margin-top: 1em;
+  overflow:auto;
 }
 
 .project {
@@ -192,13 +193,13 @@ video {
 }
 
 footer {
-    width: 95%;
-    position: fixed;
-    bottom: 20px;
-    height: 30px; 
-    text-align: center;
-	background-color: #000;
-	margin: 0 auto;
+  width: 95%;
+  position: fixed;
+  bottom: 20px;
+  height: 30px; 
+  text-align: center;
+  background-color: #000;
+  margin: 10px auto 0;
 }
 
 footer p {
