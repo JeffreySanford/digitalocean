@@ -5,16 +5,17 @@
     <div ng-repeat="project in designProjects | filter:params.design_type" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="well well-lg project individual-project">
         <img ng-src="{{ project.imageURL }}" alt="placeholder image">
-        <p class="title">{{ project.title }}</p>
-        <p class="subtitle">{{ project.subtitle }}</p>
-        <p class="teaser">{{ project.teaser }}</p>
-        <div class="row project-button">
-          <span style="position:absolute; margin-top: -25px;">
-            <a href='{{ project.git }}' target="_blank"><button>github</button></a>
-	        </span>
-	        <span style="position:absolute;margin: -25px 0 0 150px; right:-67px;">
-	          <a href='{{ project.url }}' target="_blank"><button>web</button></a>
-          </span>
+        <img ng-src="{{ project.imageURL }}" alt="placeholder image">
+          <p class="title">{{ project.title }}</p>
+          <p class="subtitle">{{ project.subtitle }}</p>
+          <p class="teaser">{{ project.teaser }}</p>
+          <div class="project-button">
+            <span style="position:absolute; margin-top: -25px;">
+              <a href='{{ project.git }}' target="_blank"><button>github</button></a>
+            </span>
+            <span style="position:absolute;margin: -25px 0 0 150px; right:-58px;">
+              <a href='{{ project.url }}' target="_blank"><button>web</button></a>
+            </span>
         </div><!-- ends the buttom row -->
       </div> <!-- ends boostrap well -->
     </div> <!-- ends angular repeat -->
