@@ -119,7 +119,7 @@
        "subtitle":"Artist Site",
        "teaser":"This is a angular mockup application for a business idea that a start-up had.",
        "git":"https://github.com/JeffreySanford/development/tree/master/projects/car-connection/app",
-       "url":"../development/projects/car-connection/app",
+       "url":"../development/projects/car-connection",
        "samples":":angular",
        "imageURL": "img/angularjs-logo.png"
       },
