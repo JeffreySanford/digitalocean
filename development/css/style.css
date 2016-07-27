@@ -43,13 +43,13 @@ nav li {
 }
 
 nav li a {
-	font-size: 2.2em;
-    display: block;
-    color: #00BFFF;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, .6);
-    outline: none !important;
+  font-size: 2.2em;
+  display: block;
+  color: #00BFFF;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, .6);
+  outline: none !important;
 }
 
 nav li a:hover {
@@ -92,7 +92,7 @@ video {
 
 .container {
   font-size: 1.2em; 
-  overflow:hidden;
+  overflow: auto;;
   color: white
 }
 
@@ -102,7 +102,7 @@ video {
 }
 
 .project-wrapper {
-  margin-top: 6em;
+  margin-top: 1em;
 }
 
 .project {
@@ -126,11 +126,11 @@ video {
 }
 
 .project img {
-  width: 125px;
-	height: 125px;
-	float: left;
-	margin: 0 1em 0 0;
-	border-radius: 75px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0;
+  border-radius: 75px;
 }
 
 .project .title {
