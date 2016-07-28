@@ -133,8 +133,8 @@
     	"imageURL": "img/angularjs-logo.png"
       },
       {
-    	"title": "Angular Hero App",
-    	"subtitle": "Angular in the front-end",
+    	"title": "Angular Hero",
+    	"subtitle": "Angular front-end ideas",
     	"teaser": "Angular/Material design creates a front-end app that involves the user in the navigation process.",
     	"url":  "../development/projects/ng-hero-app/",
     	"samples":  ":angular",
