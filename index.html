@@ -14,13 +14,13 @@
         <title>Portfolio</title>
 
         <!-- Bootstrap Core CSS -->
-        <link  rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/grayscale.css">
-        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+        <link href="css/grayscale.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
+        <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -32,7 +32,7 @@
         <![endif]-->
 
         <!-- jQuery Version 1.11.0 -->
-        <script src="../js/jquery-1.11.0.js"></script>
+        <script src="js/jquery-1.11.0.js"></script>
 
     </head>
 
@@ -51,12 +51,24 @@
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden"><a href="#page-top"></a></li>
-                        <li><a class="page-scroll" href="#portfolio">portfolio</a></li>
-                        <li><a class="page-scroll" href="development/">code library</a></li>
-                        <li><a class="page-scroll" href="#about">about</a></li>
-                        <li><a class="page-scroll" href="#resume">resume</a></li>
-                        <li><a class="page-scroll" href="#contact">contact</a></li>
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#portfolio">portfolio</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="http://portfolio-and-code-library.azurewebsites.net/" target="_blank">code library</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">about</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#resume">resume</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">contact</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -122,12 +134,14 @@
                       <div class="row live-projects">
                         <div class="col-lg-12 portfolio-item " style="color: white;">
                           <div class="col-lg-12 portfolio-item text-center">
-                              <a href="development/projects/kitchen-table/#/recipes" class="portfolio-link" data-toggle="modal">
+                              <a href="http://mctdev.us/development/AdSense/#/recipes" class="portfolio-link" data-toggle="modal">
                                   <img src="projects\images\KitchenTableLogo.png" class="img-responsive img-circular" alt="">
                                   <h4 class="liveProjectHeaderTitle text-center">The Kitchen Table</h4>
                                   <div>
                                     <iframe style="margin-left: 10px;" name="frank" src="https://ghbtns.com/github-btn.html?user=JeffreySanford/development/tree/master/projects/kitchen-table&type=follow&count=true" frameborder="0" scrolling="0" width="250px" height="20px"></iframe>
-                                    <p class="live-project-text text-justify">Using the AngularJS framework, I want to create a Single Page Application for displaying article data in a single model-view (using the design pattern of MVVC).  It's an interesting idea to me, plus it I get to share my interests in cooking food from around the world.</p>
+                                    <p class="live-project-text text-justify">
+                                    Using the AngularJS framework, I want to create a Single Page Application for displaying article data in a single model-view (using the design pattern of MVVC).  It's an interesting idea to me, plus it I get to share my interests in cooking food from around the world.
+                                    </p>
                                   </div>
                               </a>
                           </div>
@@ -193,7 +207,7 @@
                         <a href="resume/jeffreysanford.pdf" class="btn btn-default btn-lg"><span class="network-name">Simple Resume</span></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/sanfordjeffrey" class="btn btn-default btn-lg"><span class="network-name">Detailed Background</span></a>
+                        <a href="resume/DetailedResume.pdf" class="btn btn-default btn-lg"><span class="network-name">Detailed Background</span></a>
                     </li>
                 </ul>
                 <br /><br /><br />
