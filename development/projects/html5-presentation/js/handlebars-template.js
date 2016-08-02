@@ -1,4 +1,4 @@
-$.getJSON("../data/pageinformation.json", function(json) {
+$.getJSON("data/pageinformation.json", function(json) {
     var pageInformation = json;
     
     var videoTemplate = Handlebars.compile( $("#handlebars-video-wrapper").html());
