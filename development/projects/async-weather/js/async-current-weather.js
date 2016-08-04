@@ -1,7 +1,7 @@
 (function () {
   "use strict";  
   function getCurrent() {
-    var json = "http://api.wunderground.com/api/662221cfb4/conditions/q747ce0/WA/Seattle.json";
+    var json = "https://api.wunderground.com/api/662221cfb4/conditions/q747ce0/WA/Seattle.json";
     var req = new XMLHttpRequest(); // a new request
 
     req.onreadystatechange = function() {
