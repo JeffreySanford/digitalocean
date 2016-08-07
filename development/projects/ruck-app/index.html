@@ -15,52 +15,52 @@
     </style>
   </head>
   <body>
-    <style>
     .range           { width: 70%; margin-left: 15%; margin-top: 20%; }
     .leaflet-top .leaflet-control-zoom { top:20px; }
-  </style>
-  <div id='map' style="">
-    <fieldset><legend>Map</legend></fieldset>
-    <div id="status" style="" >Status</div>
-  </div>
-  <div id="information" style="">Information</div>
-  <div id="controls">Controls</div>
-  <input id='range' class='range' type='range' min='0' max='1.0' step='any' />
+    </style>
+    <div id='map' style="">
+      <fieldset><legend>Map</legend></fieldset>
+      <div id="status" style="" >Status</div>
+      <input id='range' class='range' type='range' min='0' max='1.0' step='any' />
 
-    <script>
-      L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnJleXNhbmZvcmQiLCJhIjoiY2lya3FyN2E1MDAzNGZnbTh4cWZrYjQzNSJ9.YGbWQc4BIuvtnfs_0xbJPQ';
-      var map = L.mapbox.map('map');
-      L.mapbox.tileLayer('mapbox.outdoors').addTo(map);
+    </div>
+    <div id="information" style="">Information</div>
+    <div id="controls">Controls</div>
 
-      var overlay = L.mapbox.tileLayer('mapbox.comic').addTo(map);
-      var range = document.getElementById('range');
+      <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnJleXNhbmZvcmQiLCJhIjoiY2lya3FyN2E1MDAzNGZnbTh4cWZrYjQzNSJ9.YGbWQc4BIuvtnfs_0xbJPQ';
+        var map = L.mapbox.map('map');
+        L.mapbox.tileLayer('mapbox.outdoors').addTo(map);
 
-      function clip() {
-        var nw = map.containerPointToLayerPoint([0, 0]),
-            se = map.containerPointToLayerPoint(map.getSize()),
-            clipX = nw.x + (se.x - nw.x) * range.value;
+        var overlay = L.mapbox.tileLayer('mapbox.comic').addTo(map);
+        var range = document.getElementById('range');
 
-        overlay.getContainer().style.clip = 'rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
-      }
+        function clip() {
+          var nw = map.containerPointToLayerPoint([0, 0]),
+              se = map.containerPointToLayerPoint(map.getSize()),
+              clipX = nw.x + (se.x - nw.x) * range.value;
 
-	L.geoJson({
-  type: 'FeatureCollection',
-  features: [{
-      type: 'Feature',
-      properties: {},
-      geometry: {
-          type: 'LineString',
-          coordinates: [[0, 0], [10, 20]]
-      }
-  }, {
-      type: 'Feature',
-      properties: {},
-      geometry: {
-          type: 'Point',
-          coordinates: [0, 0]
-      }
-  }]
-}).addTo(map);
+          overlay.getContainer().style.clip = 'rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
+        }
+
+        L.mapbox.geoJson({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {},
+            geometry: {
+                type: 'LineString',
+                coordinates: [[0, 0], [10, 20]]
+            }
+        }, {
+            type: 'Feature',
+            properties: {},
+            geometry: {
+                type: 'Point',
+                coordinates: [0, 0]
+            }
+        }]
+      }).addTo(map);
 
       range['oninput' in range ? 'oninput' : 'onchange'] = clip;
       map.on('move', clip);
