@@ -2,30 +2,32 @@
 <html>
   <head>
     <meta charset=utf-8 />
-    <title>Swipe between layers</title>
+    <title>Ruck It</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
     <style>
-      body { margin:0; padding:0; }
-      #map { position:absolute; top:0; bottom:0; width:100%; }
+      body           { margin:0; padding:0; }
+      #map           { z-index: 1;width: 90%; margin-top: 5%; margin-left: 5%; height: 400px; border: 5px solid green; }
+      #status        { position: absolute; bottom: 1em; z-index: 10; color: red; font-size: 1.1em; width: 98%; margin: 1em; padding: 10px; border: 1px solid red; background-color: rgba(0,0,0,0.4); }
+      #controls      { width: 90%; color: yellow; margin: 1em; padding: 20px; border: 1px solid yellow; }
+      #information   { width: 90%;color: blue; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid blue; }
     </style>
   </head>
   <body>
     <style>
-    .range {
-      position:absolute;
-      width:100%;
-      }
-    .leaflet-top .leaflet-control-zoom {
-      top:20px;
-      }
+    .range           { width: 70%; margin-left: 15%; margin-top: 20%; }
+    .leaflet-top .leaflet-control-zoom { top:20px; }
   </style>
-  <div id='map'></div>
+  <div id='map' style="">
+    <div id="status" style="" >Status messages here</div>
+  </div>
+  <div id="information" style="">Information</div>
+  <div id="controls">Controls</div>
   <input id='range' class='range' type='range' min='0' max='1.0' step='any' />
 
     <script>
-      L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnJleXNhbmZvcmQiLCJhIjoiY2lyNnFja2R0MDA3eWc3bTM5eTNleGdweSJ9.AC5sw0L2S3GZMCbUWvrJ-g';
+      L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnJleXNhbmZvcmQiLCJhIjoiY2lya3FyN2E1MDAzNGZnbTh4cWZrYjQzNSJ9.YGbWQc4BIuvtnfs_0xbJPQ';
       var map = L.mapbox.map('map');
       L.mapbox.tileLayer('mapbox.outdoors').addTo(map);
 
@@ -42,8 +44,7 @@
 
       range['oninput' in range ? 'oninput' : 'onchange'] = clip;
       map.on('move', clip);
-      map.setView([49.434,-123.272], 7);
-
+      map.setView([40.3428, -105.6836], 12); 
       clip();
     </script>
   </body>
