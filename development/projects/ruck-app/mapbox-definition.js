@@ -15,7 +15,7 @@
         overlay.getContainer().style.clip = 'rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
     }
 
-    L.mapbox.geoJson({
+    L.geoJson({
     type: 'FeatureCollection',
     features: [{
         type: 'Feature',
