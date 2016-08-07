@@ -39,9 +39,11 @@
         document.getElementById('info').innerHTML =
         // e.point is the x, y coordinates of the mousemove event relative
         // to the top-left corner of the map
-        JSON.stringify(e.point) + '<br />' +
+        JSON.stringify(e.layerPoint.x) + '(x)'+ JSON.stringify(e.layerPoint.y) + '(y)';
             // e.lngLat is the longitude, latitude geographical position of the event
-        JSON.stringify(e.lngLat);
+	document.getElementById('latitude').innerHTML = JSON.stringify(e.latlng.lat.toFixed(2));
+	document.getElementById('longitude').innerHTML = JSON.stringify(e.latlng.lng.toFixed(2));
+
 });
     map.setView([40.3428, -105.6836], 12);
     clip();
