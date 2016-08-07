@@ -36,6 +36,6 @@
 
     range['oninput' in range ? 'oninput' : 'onchange'] = clip;
     map.on('move', clip);
-    map.setView([40.3428, -105.6836], 12); 
+    map.setView([40.3428, -105.6836], 12);
     clip();
 }());
