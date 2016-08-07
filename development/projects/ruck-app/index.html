@@ -12,8 +12,9 @@
       #status        { position: absolute; bottom: 2em; z-index: 10; color: red; font-size: 1.1em; width: 93%; margin: 1em; padding: 10px; border: 1px solid red; background-color: rgba(0,0,0,0.4); }
       #controls      { width: 86%; color: purple; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid purple; }
       #information   { width: 86%; color: blue; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid blue; }
-     .range           { width: 70%; margin-left: 15%; margin-top: 20%; }
+     .range          { width: 70%; margin-left: 15%; margin-top: 20%; }
      .leaflet-top .leaflet-control-zoom { top:20px; }
+     #latitude       { position: relative; right:0; top:0; }
     </style>
   </head>
   <body>
@@ -25,7 +26,7 @@
     </div>
     <div id="information" style="">
       <h3>Information</h3>
-      <p>lat:<span id='latitude' style='position: absolute; right:0; top:0;'></p> 
+      <p>lat:<span id='latitude' style=''></p>
       <p>longitude:<span id='longitude'></p>
     </div>
     <div id="controls">Controls
