@@ -10,8 +10,8 @@
       body           { margin:0; padding:0; }
       #map           { z-index: 1;width: 90%; margin-top: 5%; margin-left: 5%; height: 400px; border: 5px solid green; }
       #status        { position: absolute; bottom: 2em; z-index: 10; color: red; font-size: 1.1em; width: 93%; margin: 1em; padding: 10px; border: 1px solid red; background-color: rgba(0,0,0,0.4); }
-      #controls      { width: 89%; color: purple; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid purple; }
-      #information   { width: 89%; color: blue; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid blue; }
+      #controls      { width: 88%; color: purple; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid purple; }
+      #information   { width: 88%; color: blue; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid blue; }
      .range          { width: 70%; margin-left: 15%; margin-top: 20%; }
      .leaflet-top .leaflet-control-zoom { top:20px; }
      #latitude       { position: relative; right:0; top:0; }
@@ -22,12 +22,12 @@
       <div id="status" style="" >Status
         <div id="info"></div>
       </div>
-      <input style="position: absolute;z-index:3;bottom: 5px;" id='range' class='range' type='range' min='0' max='1.0' step='any' />
+      <input style="position: absolute;z-index:5;bottom: 5px;" id='range' class='range' type='range' min='0' max='1.0' step='any' />
     </div>
     <div id="information" style="">
       <h3>Information</h3>
-      <p>lat:<span id='latitude' style=''></p>
-      <p>longitude:<span id='longitude'></p>
+      <p>latitude: <span id='latitude' style=''></p>
+      <p>longitude: <span id='longitude'></p>
     </div>
     <div id="controls">Controls
       <p>Current location {{current_location}}
