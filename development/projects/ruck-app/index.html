@@ -9,9 +9,9 @@
     <style>
       body           { margin:0; padding:0; }
       #map           { z-index: 1;width: 90%; margin-top: 5%; margin-left: 5%; height: 400px; border: 5px solid green; }
-      #status        { position: absolute; bottom: 1em; z-index: 10; color: red; font-size: 1.1em; width: 98%; margin: 1em; padding: 10px; border: 1px solid red; background-color: rgba(0,0,0,0.4); }
-      #controls      { width: 90%; color: yellow; margin: 1em; padding: 20px; border: 1px solid yellow; }
-      #information   { width: 90%;color: blue; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid blue; }
+      #status        { position: absolute; bottom: 1em; z-index: 10; color: red; font-size: 1.1em; width: 93%; margin: 1em; padding: 10px; border: 1px solid red; background-color: rgba(0,0,0,0.4); }
+      #controls      { width: 86%; color: purple; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid purple; }
+      #information   { width: 86%; color: blue; font-size: 1.2em; margin: 1em 1em 1em 5%; padding: 10px; border: 1px solid blue; }
     </style>
   </head>
   <body>
@@ -21,10 +21,10 @@
   </style>
   <div id='map' style="">
     <fieldset><legend>Map</legend></fieldset>
-    <div id="status" style="" ><fieldset><legend>Status</legend></fieldset></div>
+    <div id="status" style="" >Status</div>
   </div>
-  <div id="information" style=""><fieldset><legend>Information</legend></fieldset></div>
-  <div id="controls"><fieldset><legend>Controls</legend></fieldset></div>
+  <div id="information" style="">Information</div>
+  <div id="controls">Controls</div>
   <input id='range' class='range' type='range' min='0' max='1.0' step='any' />
 
     <script>
