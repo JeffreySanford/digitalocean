@@ -5,6 +5,9 @@
     <title>Ruck It</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script src="http://ai.github.io/compass.js/compass.js"></script>
+    <script src="mapbox-definition.js"></script>
     <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
     <style>
       body           { margin:0; padding:0; margin: 0 auto; }
@@ -35,9 +38,34 @@
       <p>Waypoint A {{waypoint.geo-location}}</p>
       <p>Waypoint B {{waypoint.geo-location}}</p>
       <p>Waypoint C {{waypoint.geo-location}}</p>
-      <div id="compass"></div>
-      <script src="http://ai.github.io/compass.js/compass.js"></script>
+      <div id="compass">
+        <script>
+          // Hide compass for desktop users (without compass, GPS and accelerometers):
+
+          Compass.noSupport(function () {
+            $('.compass').hide();
+          });
+
+          // Show instructions for Android users:
+
+          Compass.needGPS(function () {
+            $('.go-outside-message').show();          // Step 1: we need GPS signal
+            }).needMove(function () {
+            $('.go-outside-message').hide()
+            $('.move-and-hold-ahead-message').show(); // Step 2: user must go forward
+            }).init(function () {
+          $('.move-and-hold-ahead-message').hide(); // GPS hack is enabled
+          });
+
+          //Add compass heading listener:
+
+          Compass.watch(function (heading) {
+            $('.degrees').text(heading);
+            $('.compass').css('transform', 'rotate(' + (-heading) + 'deg)');
+          });
+        </script>
+
+      </div>
     </div>
-    <script src="mapbox-definition.js"></script>
   </body>
 </html>
