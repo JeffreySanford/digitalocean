@@ -4,7 +4,7 @@
     var map = L.mapbox.map('map');
     L.mapbox.tileLayer('mapbox.outdoors').addTo(map);
 
-    var overlay = L.mapbox.tileLayer('mapbox.comic').addTo(map);
+    var overlay = L.mapbox.tileLayer('mapbox.satellite').addTo(map);
     var range = document.getElementById('range');
 
     function clip() {
