@@ -22,7 +22,7 @@
         properties: {},
         geometry: {
             type: 'LineString',
-            coordinates: [[0, 0], [10, 20]]
+            coordinates: [[40.45, -105.41], [40, -104]]
         }
       }, {
         type: 'Feature',
@@ -35,13 +35,14 @@
     }).addTo(map);
     range['oninput' in range ? 'oninput' : 'onchange'] = clip;
     map.on('mousemove', function (e) {
-        document.getElementById('info').innerHTML = JSON.stringify(e.layerPoint.x) + '(x)'+ JSON.stringify(e.layerPoint.y) + '(y)';
+        document.getElementById('info').innerHTML = 'pointer: ' + JSON.stringify(e.layerPoint.x.toFixed(2)) + ' ' + JSON.stringify(e.layerPoint.y.toFixed(2));
 	document.getElementById('latitude').innerHTML = JSON.stringify(e.latlng.lat.toFixed(2));
 	document.getElementById('longitude').innerHTML = JSON.stringify(e.latlng.lng.toFixed(2));
     });
     map.on('move', clip);
     var mapContainer = document.getElementById('map-container');
     mapContainer.onmouseleave = function () {
+      document.getElementById('info').innerHTML = '';
       document.getElementById('latitude').innerHTML = '';
       document.getElementById('longitude').innerHTML = '';
     };
