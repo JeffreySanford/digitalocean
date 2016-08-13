@@ -40,6 +40,11 @@
 	document.getElementById('longitude').innerHTML = JSON.stringify(e.latlng.lng.toFixed(2));
     });
     map.on('move', clip);
+    var mapContainer = document.getElementById('map-container');
+    mapContainer.onmouseleave = function () {
+      document.getElementById('latitude').innerHTML = '';
+      document.getElementById('longitude').innerHTML = '';
+    };
     map.setView([40.3428, -105.6836], 8);
     clip();
 }());
