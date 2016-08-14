@@ -23,6 +23,47 @@
       <span><p>longitude: <span id='longitude'></p></span>
     </div>
     <div id="controls">Controls
+
+<style>
+    #fly {
+        display: block;
+        position: relative;
+        margin: 0px auto;
+        width: 50%;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        background: #ee8a65;
+    }
+</style>
+<div id='map'></div>
+<br/>
+<button id='fly'>Fly</button>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamVmZnJleXNhbmZvcmQiLCJhIjoiY2lyNnFja2R0MDA3eWc3bTM5eTNleGdweSJ9.AC5sw0L2S3GZMCbUWvrJ-g';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [-74.50, 40],
+    zoom: 9
+});
+
+document.getElementById('fly').addEventListener('click', function () {
+    // Fly to a random location by offsetting the point -74.50, 40
+    // by up to 5 degrees.
+    map.flyTo({
+        center: [
+            -74.50 + (Math.random() - 0.5) * 10,
+            40 + (Math.random() - 0.5) * 10]
+    });
+});
+</script>
+
+
       <p>Current location {{current_location}}
       <p>Waypoint A {{waypoint.geo-location}}</p>
       <p>Waypoint B {{waypoint.geo-location}}</p>
